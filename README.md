@@ -15,9 +15,9 @@ Use Api to get food recipes that will be stored in the application and users can
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
-- **Category:**
-- **Mobile:**
-- **Story:**
+- **Category:** Productivity
+- **Mobile:** Yes
+- **Story:** 
 - **Market:**
 - **Habit:**
 - **Scope:**
