@@ -18,9 +18,9 @@ Use Api to get food recipes that will be stored in the application and users can
 - **Category:** Productivity
 - **Mobile:** Yes
 - **Story:** 
-- **Market:**
-- **Habit:**
-- **Scope:**
+- **Market:** Anyone interested in cooking/meal prepping
+- **Habit:**  Depends on user
+- **Scope:** 
 
 ## Product Spec
 
@@ -30,8 +30,7 @@ Use Api to get food recipes that will be stored in the application and users can
 
 * [fill in your required user stories here]
 * ...
-Get a collection of recipes to add to your cooking
-and also add your own recipes. 
+Get a collection of recipes to add to your cooking and also add your own recipes. 
 
 **Optional Nice-to-have Stories**
 
@@ -43,15 +42,12 @@ and also add your own recipes.
 * [list first screen here]
    * [list associated required story here]
    * ...
-   uiviewcontroller which contains 
-   sign in and sign up page for users
+   UIviewcontroller which contains Sign In and Sign Up page for users
    
 * [list second screen here]
    * [list associated required story here]
    * ...
-   home page of app where users can direct 
-   themselves to the options contained
-   in the app
+   Home page of app where users can direct themselves to the features/options containedin the app
 
 ### 3. Navigation
 
