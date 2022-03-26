@@ -11,7 +11,7 @@ Original App Design Project - README Template
 
 ## Overview
 ### Description
-Use Api to get food recipes that will be stored in the application and users can access to try the recipes for themselves. Users will also be able to create their own recipes that they can save.
+Use API to get food recipes that will be stored in the application and users can access to try the recipes for themselves. Users will also be able to create their own recipes that they can save.
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
