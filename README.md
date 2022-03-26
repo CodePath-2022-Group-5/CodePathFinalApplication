@@ -68,7 +68,7 @@ Get a collection of recipes to add to your cooking and also add your own recipes
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img src="https://share.proto.io/WQ79HO/" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
