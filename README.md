@@ -80,7 +80,9 @@ https://share.proto.io/WQ79HO/
 
 ### [BONUS] Interactive Prototype
 
-Uploading Screen Recording 2022-04-02 at 12.10.07 PM.mov…
+
+https://user-images.githubusercontent.com/69220191/161397829-7b711503-3aee-4f17-bf2c-47a1c6055be7.mov
+
 
 ## Schema 
 [This section will be completed in Unit 9]
