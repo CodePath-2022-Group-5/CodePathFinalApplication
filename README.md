@@ -76,7 +76,11 @@ https://share.proto.io/WQ79HO/
 
 ### [BONUS] Digital Wireframes & Mockups
 
+<img width="910" alt="Screen Shot 2022-04-02 at 12 08 24 PM" src="https://user-images.githubusercontent.com/69220191/161397765-f2fe7696-ab03-46c6-a77e-3fb093bb2faa.png">
+
 ### [BONUS] Interactive Prototype
+
+Uploading Screen Recording 2022-04-02 at 12.10.07 PM.mov…
 
 ## Schema 
 [This section will be completed in Unit 9]
