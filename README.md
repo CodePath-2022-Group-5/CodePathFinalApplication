@@ -68,9 +68,6 @@ Get a collection of recipes to add to your cooking and also add your own recipes
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
-<img src="https://share.proto.io/WQ79HO/" width=600>
-https://share.proto.io/WQ79HO/
-
 ![image](https://user-images.githubusercontent.com/69220191/161365957-80031979-4cee-4c2e-b2d1-541dd9b547f1.png)
 
 
@@ -88,7 +85,29 @@ https://user-images.githubusercontent.com/69220191/161397829-7b711503-3aee-4f17-
 [This section will be completed in Unit 9]
 ### Models
 [Add table of models]
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | objectId      | String   | unique id for the user entry |
+   | username      | String   | username for user to login |
+   | password      | String   | password for user to login |
+   | name        | Pointer to User|  name of the user |
+   | image         | File     | image for recipe |
+   | recipe        | string   | name of recipe |
+   | instruction   | String   | recipe instructions by author |
+   | ingredients   | String   | total list of ingredients |
+
 ### Networking
 - [Add list of network requests by screen ]
+- Login Screen / User Profile
+ - Validate user with username and password
+ - (Read/GET) Display users made recipes
+- User Recipes
+ - (Create/POST) Create a recipe 
+- Home Screen
+ - (Read/GET) Get Recipes from api
+- Recipe Search
+ - Use input param to search api for recipes
+   
+
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
