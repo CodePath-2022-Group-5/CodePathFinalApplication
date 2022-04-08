@@ -27,10 +27,9 @@ Use API to get food recipes that will be stored in the application and users can
 ### 1. User Stories (Required and Optional)
 
 **Required Must-have Stories**
-
-* [fill in your required user stories here]
-* ...
-Get a collection of recipes to add to your cooking and also add your own recipes. 
+* User can register for an account
+* User can login and logout
+* Get a collection of recipes to add to your cooking and also add your own recipes. 
 
 **Optional Nice-to-have Stories**
 
@@ -39,32 +38,29 @@ Get a collection of recipes to add to your cooking and also add your own recipes
 
 ### 2. Screen Archetypes
 
-* [list first screen here]
-   * [list associated required story here]
-   * ...
-   UIviewcontroller which contains Sign In and Sign Up page for users
-   
-* [list second screen here]
-   * [list associated required story here]
-   * ...
-   Home page of app where users can direct themselves to the features/options containedin the app
+* Login
+   * Registration - user can either sign in with existing account or sign up
 
+* Main Recipe Page - screen where user can view different recipes
+   * user can scroll through different types of recipes 
+   
+* Recipe Search
+   * user can saerch specific recipes 
+   
+* recipe information
+   * in detail information about the recipe(ingredients, instructions, etc.)
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* Main Recipe Page (Home Page)
+* Recipe Search
+* Profile
 
 **Flow Navigation** (Screen to Screen)
 
-* [list first screen here]
-   * [list screen navigation here]
-   * ...
-* [list second screen here]
-   * [list screen navigation here]
-   * ...
+* Forced Log-in -> Either register or log in user if no information is available
+* Main recipe page -> Upon pressing recipe information page shows up 
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
@@ -99,14 +95,14 @@ https://user-images.githubusercontent.com/69220191/161397829-7b711503-3aee-4f17-
 ### Networking
 - [Add list of network requests by screen ]
 - Login Screen / User Profile
- - Validate user with username and password
- - (Read/GET) Display users made recipes
+    - Validate user with username and password
+    - (Read/GET) Display users made recipes
 - User Recipes
- - (Create/POST) Create a recipe 
+    - (Create/POST) Create a recipe 
 - Home Screen
- - (Read/GET) Get Recipes from api
+    - (Read/GET) Get Recipes from api
 - Recipe Search
- - Use input param to search api for recipes
+    - Use input param to search api for recipes
    
 
 - [Create basic snippets for each Parse network request]
