@@ -27,9 +27,9 @@ Use API to get food recipes that will be stored in the application and users can
 ### 1. User Stories (Required and Optional)
 
 **Required Must-have Stories**
-* User can register for an account
-* User can login and logout
-* Get a collection of recipes to add to your cooking and also add your own recipes. 
+* [x]User can register for an account
+* []User can login and logout
+* []Get a collection of recipes to add to your cooking and also add your own recipes. 
 
 **Optional Nice-to-have Stories**
 
@@ -48,7 +48,7 @@ Use API to get food recipes that will be stored in the application and users can
    * user can saerch specific recipes 
    
 * recipe information
-   * in detail information about the recipe(ingredients, instructions, etc.)
+   * [] in detail information about the recipe(ingredients, instructions, etc.)
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
@@ -70,6 +70,10 @@ Use API to get food recipes that will be stored in the application and users can
 ### [BONUS] Digital Wireframes & Mockups
 
 <img width="910" alt="Screen Shot 2022-04-02 at 12 08 24 PM" src="https://user-images.githubusercontent.com/69220191/161397765-f2fe7696-ab03-46c6-a77e-3fb093bb2faa.png">
+
+# User Stories (Login)
+
+<img width="910" alt="Screen Shot 2022-04-02 at 12 08 24 PM" src="http://g.recordit.co/Nqr7s0aRhf.gif">
 
 ### [BONUS] Interactive Prototype
 
