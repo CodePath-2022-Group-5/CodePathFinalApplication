@@ -73,7 +73,7 @@ Use API to get food recipes that will be stored in the application and users can
 
 # User Stories (Login)
 
-<img width="910" alt="Screen Shot 2022-04-02 at 12 08 24 PM" src="http://g.recordit.co/Nqr7s0aRhf.gif">
+<img width="250" alt="Screen Shot 2022-04-02 at 12 08 24 PM" src="http://g.recordit.co/Nqr7s0aRhf.gif">
 
 ### [BONUS] Interactive Prototype
 
