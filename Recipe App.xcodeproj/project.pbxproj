@@ -10,6 +10,8 @@
 		2451921AC02BC6AE83B31369 /* Pods_Recipe_App_Recipe_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F36CE1DB63EA789EDD14FC2A /* Pods_Recipe_App_Recipe_AppUITests.framework */; };
 		2C758264231EFA6A26467D1C /* Pods_Recipe_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 673AFDA0889CFB1C58BBDEED /* Pods_Recipe_App.framework */; };
 		98D89509EA6FC236C93944AD /* Pods_Recipe_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15326E1358B1557287044C1E /* Pods_Recipe_AppTests.framework */; };
+		CD101849280FF51700F8A4CE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD101848280FF51700F8A4CE /* HomeViewController.swift */; };
+		CD10184C2810DC5A00F8A4CE /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD10184B2810DC5A00F8A4CE /* RecipeCell.swift */; };
 		CD748FAE2800ED9000C3119A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD748FAD2800ED9000C3119A /* AppDelegate.swift */; };
 		CD748FB02800ED9000C3119A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD748FAF2800ED9000C3119A /* SceneDelegate.swift */; };
 		CD748FB52800ED9000C3119A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD748FB32800ED9000C3119A /* Main.storyboard */; };
@@ -47,6 +49,8 @@
 		92925A09100F241E1E26B47B /* Pods-Recipe AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Recipe AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Recipe AppTests/Pods-Recipe AppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9EF413373F782722DFBC4B4A /* Pods-Recipe App-Recipe AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Recipe App-Recipe AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-Recipe App-Recipe AppUITests/Pods-Recipe App-Recipe AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BF614238E22F2772B01E2512 /* Pods-Recipe App-Recipe AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Recipe App-Recipe AppUITests.release.xcconfig"; path = "Target Support Files/Pods-Recipe App-Recipe AppUITests/Pods-Recipe App-Recipe AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CD101848280FF51700F8A4CE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CD10184B2810DC5A00F8A4CE /* RecipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
 		CD748FAA2800ED9000C3119A /* Recipe App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD748FAD2800ED9000C3119A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD748FAF2800ED9000C3119A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -178,6 +182,7 @@
 		CD748FDE2800EDF100C3119A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CD10184B2810DC5A00F8A4CE /* RecipeCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -186,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				CD748FE12800F8C900C3119A /* LoginViewController.swift */,
+				CD101848280FF51700F8A4CE /* HomeViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -438,9 +444,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD10184C2810DC5A00F8A4CE /* RecipeCell.swift in Sources */,
 				CD748FE22800F8C900C3119A /* LoginViewController.swift in Sources */,
 				CD748FAE2800ED9000C3119A /* AppDelegate.swift in Sources */,
 				CD748FB02800ED9000C3119A /* SceneDelegate.swift in Sources */,
+				CD101849280FF51700F8A4CE /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
